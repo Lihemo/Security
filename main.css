@@ -65,6 +65,7 @@ form{
 
 #ClickMe{
     text-align: center;
+    border-radius: 3px;
 }
 
 /* The marquee css begins here */
