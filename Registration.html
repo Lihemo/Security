@@ -49,12 +49,21 @@ if(isset($_Request['submit']))
         </ul>
     </nav>
 
-    <Form method="POST" id = "student" onsubmit="check ()">
+    <Form method="POST" action="" id="student" onsubmit="check ()">
                 <h2>Student Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "jina" > <br /> <br />
             <label for="">Course:</label>
-            <input type="text" id = "john"> <br /> <br />
+
+             <!--this code below is for the dropdown menu-->
+             <select name="" id="john">
+                <option value="">Diploma in ICT</option>
+                <option value="">Bachelors in ICT</option>
+                <option value="">Bachelors in Mechanical Engineering</option>
+                <option value="">Diploma in Animal Husbandry</option> 
+            </select> <br /> <br />
+            <!--it ends here-->  
+
             <label for="">Laptop Model:</label>
             <input type="text" id = "model" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
@@ -64,12 +73,22 @@ if(isset($_Request['submit']))
     
     </Form>
 
-    <Form method="POST" id ="lecturer" onsubmit="check ()">
+
+    <Form method="POST" action="" id ="lecturer" onsubmit="check ()">
                 <h2>Lecturer Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "jina" > <br /> <br />
             <label for="">Faculty:</label>
-            <input type="text" id= "john"> <br /> <br />
+
+             <!--this code below is for the dropdown menu-->
+             <select name="" id="john">
+                <option value="">Faculty of IT and Computing</option>
+                <option value="">Faculty of Applied Sciences</option>
+                <option value="">Faculty of Agriculture</option>
+                <option value="">Faculty of Engineering</option> 
+            </select> <br /> <br />
+            <!--it ends here--> 
+
             <label for="">Laptop Model:</label>
             <input type="text" id = "model" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
@@ -78,15 +97,23 @@ if(isset($_Request['submit']))
             <input type="submit" value="submit" id = "ClickMe">
         
     </Form>
-    
-        
-    
-    <Form method="POST" id="staff"onsubmit="check ()">
+
+
+    <Form method="POST" action="" id="staff"onsubmit="check ()">
                 <h2>Staff Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "jina" > <br /> <br />
             <label for="">Department:</label>
-            <input type="text" id = "john"> <br /> <br />
+
+            <!--this code below is for the dropdown menu-->
+            <select name="" id="john">
+                <option value="">Estates</option>
+                <option value="">Cleaning</option>
+                <option value="">Hotel and Accomodation</option>
+                <option value="">Transport</option> 
+            </select> <br /> <br />
+            <!--it ends here--> 
+
             <label for="">Laptop Model:</label>
             <input type="text" id = "model" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
@@ -95,15 +122,24 @@ if(isset($_Request['submit']))
             <input type="submit" value="submit" id = "ClickMe">
         
     </Form>
-    
 
-    
-    <Form method ="POST" id="visitor" onsubmit="check ()">
+
+
+    <Form method ="POST" action="" id="visitor" onsubmit="check ()">
                 <h2>Visitor Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "jina" > <br /> <br />
             <label for="">Destination:</label>
-            <input type="text" id = "john"> <br /> <br />
+
+             <!--this code below is for the dropdown menu-->
+             <select name="" id="john">
+                <option value="">Administration Block</option>
+                <option value="">Hotel and Conference</option>
+                <option value="">Hostels</option>
+                <option value="">Stadia</option> 
+            </select> <br /> <br />
+            <!--it ends here--> 
+
             <label for="">Laptop Model:</label>
             <input type="text" id = "model" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
