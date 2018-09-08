@@ -58,7 +58,7 @@ h2{
     font-weight: bold;
 }
 
- /*This are the respective forms css identified using the 'id' tag */
+/*This are the respective forms css identified using the 'id' tag */
 #student{
     border: 2px solid white;
     padding: 8px;
@@ -90,7 +90,8 @@ h2{
     top: 430px;
     left: 50%;
 }
- /* This is the copyright footer css*/
+
+/* This is the copyright footer css*/
 #footer{
     text-align: center;
 }

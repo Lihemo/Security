@@ -49,6 +49,8 @@ if(isset($_Request['submit']))
         </ul>
     </nav>
 
+
+<!--this code is for the students table-->
     <Form method="POST" action="" id="student" onsubmit="check ()">
                 <h2>Student Registration Form</h2>
             <label for="">Name:</label>
@@ -57,10 +59,10 @@ if(isset($_Request['submit']))
 
              <!--this code below is for the dropdown menu-->
              <select name="" id="john">
-                <option value="">Diploma in ICT</option>
-                <option value="">Bachelors in ICT</option>
-                <option value="">Bachelors in Mechanical Engineering</option>
-                <option value="">Diploma in Animal Husbandry</option> 
+                <option value="Diploma in ICT">Diploma in ICT</option>
+                <option value="Bachelors in ICT">Bachelors in ICT</option>
+                <option value="Bachelors in Mechanical Engineering">Bachelors in Mechanical Engineering</option>
+                <option value="Diploma in Animal Husbandry">Diploma in Animal Husbandry</option> 
             </select> <br /> <br />
             <!--it ends here-->  
 
@@ -74,6 +76,7 @@ if(isset($_Request['submit']))
     </Form>
 
 
+<!--this code is for the lecturer table-->
     <Form method="POST" action="" id ="lecturer" onsubmit="check ()">
                 <h2>Lecturer Registration Form</h2>
             <label for="">Name:</label>
@@ -82,10 +85,10 @@ if(isset($_Request['submit']))
 
              <!--this code below is for the dropdown menu-->
              <select name="" id="john">
-                <option value="">Faculty of IT and Computing</option>
-                <option value="">Faculty of Applied Sciences</option>
-                <option value="">Faculty of Agriculture</option>
-                <option value="">Faculty of Engineering</option> 
+                <option value="Faculty of IT and Computing">Faculty of IT and Computing</option>
+                <option value="Faculty of Applied Sciences">Faculty of Applied Sciences</option>
+                <option value="Faculty of Agriculture">Faculty of Agriculture</option>
+                <option value="Faculty of Engineering">Faculty of Engineering</option> 
             </select> <br /> <br />
             <!--it ends here--> 
 
@@ -99,6 +102,7 @@ if(isset($_Request['submit']))
     </Form>
 
 
+<!--this code is for the staff table-->
     <Form method="POST" action="" id="staff"onsubmit="check ()">
                 <h2>Staff Registration Form</h2>
             <label for="">Name:</label>
@@ -107,10 +111,10 @@ if(isset($_Request['submit']))
 
             <!--this code below is for the dropdown menu-->
             <select name="" id="john">
-                <option value="">Estates</option>
-                <option value="">Cleaning</option>
-                <option value="">Hotel and Accomodation</option>
-                <option value="">Transport</option> 
+                <option value="Estates">Estates</option>
+                <option value="Cleaning">Cleaning</option>
+                <option value="Hotel and Accomodation">Hotel and Accomodation</option>
+                <option value="Transport">Transport</option> 
             </select> <br /> <br />
             <!--it ends here--> 
 
@@ -124,7 +128,7 @@ if(isset($_Request['submit']))
     </Form>
 
 
-
+<!--this code is for the visitor table-->
     <Form method ="POST" action="" id="visitor" onsubmit="check ()">
                 <h2>Visitor Registration Form</h2>
             <label for="">Name:</label>
@@ -133,11 +137,12 @@ if(isset($_Request['submit']))
 
              <!--this code below is for the dropdown menu-->
              <select name="" id="john">
-                <option value="">Administration Block</option>
-                <option value="">Hotel and Conference</option>
-                <option value="">Hostels</option>
-                <option value="">Stadia</option> 
+                <option value="Administration Block">Administration Block</option>
+                <option value="Hotel and Conference">Hotel and Conference</option>
+                <option value="Hostels">Hostels</option>
+                <option value="Stadia">Stadia</option> 
             </select> <br /> <br />
+            <!--the value content is what is used in the php scripts.-->
             <!--it ends here--> 
 
             <label for="">Laptop Model:</label>
