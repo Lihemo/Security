@@ -51,9 +51,9 @@ if(isset($_Request['submit']))
 
 
 <!--this code is for the students table-->
-    <Form method="POST" action="" id="student" onsubmit="check ()">
+    <Form method="POST" action="" id="student" onsubmit="return student ()">
                 <h2>Student Registration Form</h2>
-            <label for="">Name:</label>
+            <label>Name:</label>
             <input type="text" id = "jina" > <br /> <br />
             <label for="">Course:</label>
 
@@ -77,9 +77,9 @@ if(isset($_Request['submit']))
 
 
 <!--this code is for the lecturer table-->
-    <Form method="POST" action="" id ="lecturer" onsubmit="check ()">
+    <Form method="POST" action="" id ="lecturer" onsubmit="return lecturer ()">
                 <h2>Lecturer Registration Form</h2>
-            <label for="">Name:</label>
+            <label>Name:</label>
             <input type="text" id = "jina" > <br /> <br />
             <label for="">Faculty:</label>
 
@@ -103,7 +103,7 @@ if(isset($_Request['submit']))
 
 
 <!--this code is for the staff table-->
-    <Form method="POST" action="" id="staff"onsubmit="check ()">
+    <Form method="POST" action="" id="staff"onsubmit="return staff ()">
                 <h2>Staff Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "jina" > <br /> <br />
@@ -129,7 +129,7 @@ if(isset($_Request['submit']))
 
 
 <!--this code is for the visitor table-->
-    <Form method ="POST" action="" id="visitor" onsubmit="check ()">
+    <Form method ="POST" action="" id="visitor" onsubmit="return visitor()">
                 <h2>Visitor Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "jina" > <br /> <br />

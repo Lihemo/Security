@@ -1,34 +1,172 @@
+//this is the students form js validation function
+function student () {
+    var name = document.getElementById('jina').value;
+    var course = document.getElementById('john').value;
+    var modeli = document.getElementById('model').value;
+    var serial_number = document.getElementById('serial').value;
 
-function check() {
+    if (name=='' || course=='' || modeli=='' || serial_number=='')
+    {
+        alert('Please Enter Real Values then Submit');
+        return false;
+    }
 
-if(document.getElementById('#jina').value ===0)
-{
-    alert("Please Enter Name")
-    document.getElementById("jina").focus();
-    return false
-}
+    else if(name.length<3)
+    {
+        alert('Name must be atleast 4 characters');
+        return false;
+    }
 
-else if (document.getElementById('#john').value ===0)
-{
-    alert("Please Enter Appropriate Value")
-    document.getElementById("jina").focus();
-    return false
-}
+    else if(course.length<3)
+    {
+        alert('Course must be atleast 4 characters');
+        return false;
+    }
 
-else if (document.getElementById('#model').value ===0)
-{
-    alert("Please Enter Model")
-    document.getElementById("jina").focus();
-    return false
-}
+    else if(modeli.length<3)
+    {
+        alert('Modeli must be atleast 4 characters');
+        return false;
+    }
+
+    else if(serial_number.length<3)
+    {
+        alert('Serial_number must be atleast 4 characters');
+        return false;
+    }
+
+    else
+    {
+        return true;
+    }
+
+};
+
+//this js code is for the lecturer form validation
+function lecturer () {
+    var name = document.getElementById('jina').value;
+    var course = document.getElementById('john').value;
+    var modeli = document.getElementById('model').value;
+    var serial_number = document.getElementById('serial').value;
+
+    if (name=='' || course=='' || modeli=='' || serial_number=='')
+    {
+        alert('Please Enter Real Values then Submit');
+        return false;
+    }
+
+    else if(name.length<3)
+    {
+        alert('Name must be atleast 4 characters');
+        return false;
+    }
+
+    else if(course.length<3)
+    {
+        alert('Course must be atleast 4 characters');
+        return false;
+    }
+
+    else if(modeli.length<3)
+    {
+        alert('Modeli must be atleast 4 characters');
+        return false;
+    }
+
+    else if(serial_number.length<3)
+    {
+        alert('Serial_number must be atleast 4 characters');
+        return false;
+    }
+
+    else
+    {
+        return true;
+    }
+};
 
 
-else if (document.getElementById('#serial').value ===0)
-{
-    alert("Please Enter Serial Number")
-    document.getElementById("jina").focus();
-    return false
-}
+function staff () {
+    var name = document.getElementById('jina').value;
+    var course = document.getElementById('john').value;
+    var modeli = document.getElementById('model').value;
+    var serial_number = document.getElementById('serial').value;
+
+    if (name=='' || course=='' || modeli=='' || serial_number=='')
+    {
+        alert('Please Enter Real Values then Submit');
+        return false;
+    }
+
+    else if(name.length<3)
+    {
+        alert('Name must be atleast 4 characters');
+        return false;
+    }
+
+    else if(course.length<3)
+    {
+        alert('Course must be atleast 4 characters');
+        return false;
+    }
+
+    else if(modeli.length<3)
+    {
+        alert('Modeli must be atleast 4 characters');
+        return false;
+    }
+
+    else if(serial_number.length<3)
+    {
+        alert('Serial_number must be atleast 4 characters');
+        return false;
+    }
+
+    else
+    {
+        return true;
+    }
+};
 
 
-}
+function visitor () {
+    var name = document.getElementById('jina').value;
+    var course = document.getElementById('john').value;
+    var modeli = document.getElementById('model').value;
+    var serial_number = document.getElementById('serial').value;
+
+    if (name=='' || course=='' || modeli=='' || serial_number=='')
+    {
+        alert('Please Enter Real Values then Submit');
+        return false;
+    }
+
+    else if(name.length<3)
+    {
+        alert('Name must be atleast 4 characters');
+        return false;
+    }
+
+    else if(course.length<3)
+    {
+        alert('Course must be atleast 4 characters');
+        return false;
+    }
+
+    else if(modeli.length<3)
+    {
+        alert('Modeli must be atleast 4 characters');
+        return false;
+    }
+
+    else if(serial_number.length<3)
+    {
+        alert('Serial_number must be atleast 4 characters');
+        return false;
+    }
+
+    else
+    {
+        return true;
+    }
+};
