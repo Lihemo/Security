@@ -23,9 +23,9 @@ function student () {
         return false;
     }
 
-    else if(modeli.length<3)
+    else if(modeli.length<2)
     {
-        alert('Modeli must be atleast 4 characters');
+        alert('Model must be atleast 2 characters');
         return false;
     }
 
@@ -44,10 +44,10 @@ function student () {
 
 //this js code is for the lecturer form validation
 function lecturer () {
-    var name = document.getElementById('jina').value;
-    var course = document.getElementById('john').value;
-    var modeli = document.getElementById('model').value;
-    var serial_number = document.getElementById('serial').value;
+    var name = document.getElementById('car').value;
+    var course = document.getElementById('chair').value;
+    var modeli = document.getElementById('old').value;
+    var serial_number = document.getElementById('gender').value;
 
     if (name=='' || course=='' || modeli=='' || serial_number=='')
     {
@@ -67,9 +67,9 @@ function lecturer () {
         return false;
     }
 
-    else if(modeli.length<3)
+    else if(modeli.length<2)
     {
-        alert('Modeli must be atleast 4 characters');
+        alert('Model must be atleast 2 characters');
         return false;
     }
 
@@ -87,10 +87,10 @@ function lecturer () {
 
 
 function staff () {
-    var name = document.getElementById('jina').value;
-    var course = document.getElementById('john').value;
-    var modeli = document.getElementById('model').value;
-    var serial_number = document.getElementById('serial').value;
+    var name = document.getElementById('dart').value;
+    var course = document.getElementById('shade').value;
+    var modeli = document.getElementById('bet').value;
+    var serial_number = document.getElementById('polite').value;
 
     if (name=='' || course=='' || modeli=='' || serial_number=='')
     {
@@ -110,9 +110,9 @@ function staff () {
         return false;
     }
 
-    else if(modeli.length<3)
+    else if(modeli.length<2)
     {
-        alert('Modeli must be atleast 4 characters');
+        alert('Model must be atleast 2 characters');
         return false;
     }
 
@@ -130,10 +130,10 @@ function staff () {
 
 
 function visitor () {
-    var name = document.getElementById('jina').value;
-    var course = document.getElementById('john').value;
-    var modeli = document.getElementById('model').value;
-    var serial_number = document.getElementById('serial').value;
+    var name = document.getElementById('clueless').value;
+    var course = document.getElementById('looking').value;
+    var modeli = document.getElementById('nervous').value;
+    var serial_number = document.getElementById('thanks').value;
 
     if (name=='' || course=='' || modeli=='' || serial_number=='')
     {
@@ -153,9 +153,9 @@ function visitor () {
         return false;
     }
 
-    else if(modeli.length<3)
+    else if(modeli.length<2)
     {
-        alert('Modeli must be atleast 4 characters');
+        alert('Model must be atleast 2 characters');
         return false;
     }
 
