@@ -1,3 +1,4 @@
+
 //this is the students form js validation function
 function student () {
     var name = document.getElementById('jina').value;
@@ -31,7 +32,7 @@ function student () {
 
     else if(serial_number.length<3)
     {
-        alert('Serial_number must be atleast 4 characters');
+        alert('Serial Number must be atleast 4 characters');
         return false;
     }
 
@@ -41,6 +42,7 @@ function student () {
     }
 
 };
+
 
 //this js code is for the lecturer form validation
 function lecturer () {
@@ -75,7 +77,7 @@ function lecturer () {
 
     else if(serial_number.length<3)
     {
-        alert('Serial_number must be atleast 4 characters');
+        alert('Serial Number must be atleast 4 characters');
         return false;
     }
 
@@ -118,7 +120,7 @@ function staff () {
 
     else if(serial_number.length<3)
     {
-        alert('Serial_number must be atleast 4 characters');
+        alert('Serial Number must be atleast 4 characters');
         return false;
     }
 
@@ -161,7 +163,7 @@ function visitor () {
 
     else if(serial_number.length<3)
     {
-        alert('Serial_number must be atleast 4 characters');
+        alert('Serial Number must be atleast 4 characters');
         return false;
     }
 

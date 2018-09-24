@@ -1,5 +1,5 @@
 
-/* this js code is for validating the indexpage data it is written in jquer*/
+/* this js code is for validating the indexpage data*/
 
 function substitute(){
     var myValue = document.getElementById("mytextbox").value;
