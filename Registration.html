@@ -23,14 +23,14 @@
 
 
 <!--this code is for the students table-->
-    <Form method="POST" action="" id="student" onsubmit="return student ()">
+    <Form method="POST" action="php_scripts/student.php" id="student" onsubmit="return student ()">
                 <h2>Student Registration Form</h2>
             <label>Name:</label>
-            <input type="text" id = "jina" > <br /> <br />
+            <input type="text" id = "jina" name="jina" > <br /> <br />
             <label for="">Course:</label>
 
              <!--this code below is for the dropdown menu-->
-             <select name="" id="john">
+             <select name="john" id="john">
                 <option value="Diploma in ICT">Diploma in ICT</option>
                 <option value="Bachelors in ICT">Bachelors in ICT</option>
                 <option value="Bachelors in Mechanical Engineering">Bachelors in Mechanical Engineering</option>
@@ -39,17 +39,17 @@
             <!--it ends here-->  
 
             <label for="">Laptop Model:</label>
-            <input type="text" id = "model" placeholder="Manufacturer's Name" > <br /> <br />
+            <input type="text" id = "model" name="model" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
-            <input type="text" id = "serial"> <br /> <br />
+            <input type="text" id = "serial" name="serial"> <br /> <br />
 
-            <input type="submit" value="submit" id = "ClickMe">
+            <input type="submit" value="submit" name="ClickMe" id = "ClickMe" name="ClickMe">
     
     </Form>
 
 
 <!--this code is for the lecturer table-->
-    <Form method="POST" action="" id ="lecturer" onsubmit="return lecturer ()">
+    <Form method="POST" action="php_scripts/lecturer.php" id ="lecturer" onsubmit="return lecturer ()">
                 <h2>Lecturer Registration Form</h2>
             <label>Name:</label>
             <input type="text" id = "car" > <br /> <br />
@@ -75,7 +75,7 @@
 
 
 <!--this code is for the staff table-->
-    <Form method="POST" action="" id="staff"onsubmit="return staff ()">
+    <Form method="POST" action="php_scripts/staff.php" id="staff"onsubmit="return staff ()">
                 <h2>Staff Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "dart" > <br /> <br />
@@ -101,7 +101,7 @@
 
 
 <!--this code is for the visitor table-->
-    <Form method ="POST" action="" id="visitor" onsubmit="return visitor()">
+    <Form method ="POST" action="php_scripts/visitor.php" id="visitor" onsubmit="return visitor()">
                 <h2>Visitor Registration Form</h2>
             <label for="">Name:</label>
             <input type="text" id = "clueless" > <br /> <br />
