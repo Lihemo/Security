@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +20,6 @@
         </ul>
     </nav>
 
-
 <!--this code is for the students table-->
     <Form method="POST" action="php_scripts/student.php" id="student" onsubmit="return student ()">
                 <h2>Student Registration Form</h2>
@@ -43,7 +41,7 @@
             <label>Serial Number:</label>
             <input type="text" id = "serial" name="serial"> <br /> <br />
 
-            <input type="submit" value="submit" name="ClickMe" id = "ClickMe" name="ClickMe">
+            <input type="submit" value="submit" name="ClickMe_one" id = "ClickMe" name="ClickMe_one">
     
     </Form>
 
@@ -52,11 +50,11 @@
     <Form method="POST" action="php_scripts/lecturer.php" id ="lecturer" onsubmit="return lecturer ()">
                 <h2>Lecturer Registration Form</h2>
             <label>Name:</label>
-            <input type="text" id = "car" > <br /> <br />
+            <input type="text" id = "car" name="car" > <br /> <br />
             <label for="">Faculty:</label>
 
              <!--this code below is for the dropdown menu-->
-             <select name="" id="chair">
+             <select name="chair" id="chair">
                 <option value="Faculty of IT and Computing">Faculty of IT and Computing</option>
                 <option value="Faculty of Applied Sciences">Faculty of Applied Sciences</option>
                 <option value="Faculty of Agriculture">Faculty of Agriculture</option>
@@ -65,11 +63,11 @@
             <!--it ends here--> 
 
             <label for="">Laptop Model:</label>
-            <input type="text" id = "old" placeholder="Manufacturer's Name" > <br /> <br />
+            <input type="text" id = "old" name="old" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
-            <input type="text" id = "gender"> <br /> <br />
+            <input type="text" id = "gender" name="gender"> <br /> <br />
 
-            <input type="submit" value="submit" id = "ClickMe">
+            <input type="submit" value="submit" id = "ClickMe" name="ClickMe_two"> 
         
     </Form>
 
@@ -78,11 +76,11 @@
     <Form method="POST" action="php_scripts/staff.php" id="staff"onsubmit="return staff ()">
                 <h2>Staff Registration Form</h2>
             <label for="">Name:</label>
-            <input type="text" id = "dart" > <br /> <br />
+            <input type="text" id = "dart" name="dart" > <br /> <br />
             <label for="">Department:</label>
 
             <!--this code below is for the dropdown menu-->
-            <select name="" id="shade">
+            <select name="shade" id="shade">
                 <option value="Estates">Estates</option>
                 <option value="Cleaning">Cleaning</option>
                 <option value="Hotel and Accomodation">Hotel and Accomodation</option>
@@ -91,11 +89,11 @@
             <!--it ends here--> 
 
             <label >Laptop Model:</label>
-            <input type="text" id = "bet" placeholder="Manufacturer's Name" > <br /> <br />
+            <input type="text" id = "bet" name="bet" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
-            <input type="text" id = "polite"> <br /> <br />
+            <input type="text" id = "polite" name="polite"> <br /> <br />
         
-            <input type="submit" value="submit" id = "ClickMe">
+            <input type="submit" value="submit" id = "ClickMe" name="ClickMe_three">
         
     </Form>
 
@@ -104,11 +102,11 @@
     <Form method ="POST" action="php_scripts/visitor.php" id="visitor" onsubmit="return visitor()">
                 <h2>Visitor Registration Form</h2>
             <label for="">Name:</label>
-            <input type="text" id = "clueless" > <br /> <br />
+            <input type="text" id = "clueless" name="clueless" > <br /> <br />
             <label for="">Destination:</label>
 
              <!--this code below is for the dropdown menu-->
-             <select name="" id="looking">
+             <select name="looking" id="looking">
                 <option value="Administration Block">Administration Block</option>
                 <option value="Hotel and Conference">Hotel and Conference</option>
                 <option value="Hostels">Hostels</option>
@@ -118,11 +116,11 @@
             <!--it ends here--> 
 
             <label for="">Laptop Model:</label>
-            <input type="text" id = "nervous" placeholder="Manufacturer's Name" > <br /> <br />
+            <input type="text" id = "nervous" name="nervous" placeholder="Manufacturer's Name" > <br /> <br />
             <label>Serial Number:</label>
-            <input type="text" id = "thanks"> <br /> <br />
+            <input type="text" id = "thanks" name="thanks"> <br /> <br />
             
-            <input type="submit" value="submit" id = "ClickMe">
+            <input type="submit" value="submit" id = "ClickMe" name="ClickMe_four">
     </Form>
     
 

@@ -1,18 +1,18 @@
 <?php
+ //this code is for submitting data to the database from  the lecturer form.
 	include "EshiwaniConnection.php";
 
-	if(isset($_REQUEST['ClickMe']))
+	if(isset($_REQUEST['ClickMe_Two']))
 	{
-		$jina = $_REQUEST['jina'];
-		$john = $_REQUEST['john'];
-		$model = $_REQUEST['model'];
-		$serial = $_REQUEST['serial'];
+		$car = $_REQUEST['car'];
+		$chair = $_REQUEST['chair'];
+		$old = $_REQUEST['old'];
+		$gender = $_REQUEST['gender'];
 
-		$insert = "insert into studentData(Name,Course,laptopModel,serialNumber) values ('$jina', '$john', '$model','$serial')";
+		$insert = "insert into lecturerData(Name,Faculty,laptopModel,serialNumber) values ('$car', '$chair', '$old','$gender')";
 		mysqli_query($link,$insert) or die("Cannot Execute Query".msqli_error($link));
-		echo "Data inserted successfully!!!"
 	};
 
-	header ("location: ./"index.html");
+	header ("location: ./ index.html");
 
 ?>

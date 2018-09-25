@@ -1,18 +1,18 @@
 <?php
+ //this code is for submitting data to the database from the visitors form.
 	include "EshiwaniConnection.php";
 
-	if(isset($_REQUEST['ClickMe']))
+	if(isset($_REQUEST['ClickMe_four']))
 	{
-		$jina = $_REQUEST['jina'];
-		$john = $_REQUEST['john'];
-		$model = $_REQUEST['model'];
-		$serial = $_REQUEST['serial'];
+		$clueless = $_REQUEST['clueless'];
+		$looking = $_REQUEST['looking'];
+		$nervous = $_REQUEST['nervous'];
+		$thanks = $_REQUEST['thanks'];
 
-		$insert = "insert into studentData(Name,Course,laptopModel,serialNumber) values ('$jina', '$john', '$model','$serial')";
+		$insert = "insert into visitorsData(Name,Destination,laptopModel,serialNumber) values ('$clueless', '$looking', '$nervous','$thanks')";
 		mysqli_query($link,$insert) or die("Cannot Execute Query".msqli_error($link));
-		echo "Data inserted successfully!!!"
 	};
 
-	header ("location: ./"index.html");
+	header ("location: ./ index.html");
 
 ?>
