@@ -26,13 +26,12 @@
         </ul>
     </nav>
 
-    <form action="" >
+    <form action="POST" method="php_scripts/display.php" onsubmit= "return substitute ()">
         <caption><b>ENTER RESPECTIVE DETAILS HERE</b></caption><br />
         <hr / color="black" cover="100%">
         <label for="">Name:</label>
         <input type="text" name="Username" id="mytextbox" placeholder="Enter Name" name="mytextbox"> <br /> <br />
-        <input type="submit" value="submit" id = "ClickMe" onclick="substitute()">
-    
+        <input type="submit" value="submit" id = "ClickMe" name= "ClickMe">
     </form>
 
     <marquee>Security Starts with YOU!</marquee> 
