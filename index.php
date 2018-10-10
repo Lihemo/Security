@@ -30,7 +30,7 @@
         <caption><b>ENTER RESPECTIVE DETAILS HERE</b></caption><br />
         <hr / color="black" cover="100%">
         <label for="">Name:</label>
-        <input type="text" name="Username" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+        <input type="text" name="Username" id="mytextbox" placeholder="Enter Name" name="mytextbox"> <br /> <br />
         <input type="submit" value="submit" id = "ClickMe" onclick="substitute()">
     
     </form>

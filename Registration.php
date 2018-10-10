@@ -13,8 +13,8 @@
 
    <nav>
         <ul>
-            <li> <a href="index.html" title="This is the HomePage"> Homepage</a> </li>
-            <li> <a href="Registration.html" title="This is the Sign in Page"> RegisterPage</a> </li>
+            <li> <a href="index.php" title="This is the HomePage"> Homepage</a> </li>
+            <li> <a href="Registration.php" title="This is the Sign in Page"> RegisterPage</a> </li>
             <li> <a href="http://www.Google.com" title="Google.com"> Google.com</a> </li>
             <li> <a href="http://www.YouTube.com" title="YouTube.com"> YouTube</a> </li>  
         </ul>
