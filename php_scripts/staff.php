@@ -2,17 +2,19 @@
   //this code is for submitting data to the database from the staff form.
 	include "EshiwaniConnection.php";
 
-	if(isset($_REQUEST['ClickMe_three']))
+	if(isset($_POST['ClickMe_three']))
 	{
-		$dart = $_REQUEST['dart'];
-		$shade = $_REQUEST['shade'];
-		$bet = $_REQUEST['bet'];
-		$polite = $_REQUEST['polite'];
+		$dart = $_POST['dart'];
+		$shade = $_POST['shade'];
+		$bet = $_POST['bet'];
+		$polite = $_POST['polite'];
 
-		$insert = "insert into staffData(Name,Department,laptopModel,serialNumber) values ('$dart', '$shade', '$bet','$polite')";
-		mysqli_query($link,$insert) or die("Cannot Execute Query".msqli_error($link));
+		$sql = "INSERT INTO staffData (Name,Department,laptopModel,serialNumber)
+		 VALUES ('$dart', '$shade', '$bet','$polite')";
+		
+		mysqli_query($con,$sql);
 	};
 
-	header ("location: ./ index.html");
+	header ("Location: {$_SERVER['HTTP_REFERER']}");
 
 ?>
