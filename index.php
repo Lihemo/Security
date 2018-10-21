@@ -26,11 +26,39 @@
         </ul>
     </nav>
 
-    <form action="POST" method="php_scripts/display.php" onsubmit= "return substitute ()">
+    <!--this code is for students display data-->
+    <form method="POST" action="php_scripts/display.php" onsubmit= "return substitute ()">
+        <caption><b>ENTER STUDENTS DETAILS HERE</b></caption><br />
+        <hr / color="black" cover="100%">
+        <label for="">Student'sName:</label>
+        <input type="text" name="mytextbox" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+        <input type="submit" value="submit" id = "ClickMe" name= "ClickMe">
+    </form>
+
+    <!--this code is for displaying lecturers data-->
+    <form method="POST" action="php_scripts/display.php" onsubmit= "return substitute ()">
+        <caption><b>ENTER LECTUERER DETAILS HERE</b></caption><br />
+        <hr / color="black" cover="100%">
+        <label for="">Lecturer's Name:</label>
+        <input type="text" name="mytextbox" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+        <input type="submit" value="submit" id = "ClickMe" name= "ClickMe">
+    </form>
+
+    <!--This code is for displaying staff data-->
+    <form method="POST" action="php_scripts/display.php" onsubmit= "return substitute ()">
         <caption><b>ENTER RESPECTIVE DETAILS HERE</b></caption><br />
         <hr / color="black" cover="100%">
-        <label for="">Name:</label>
-        <input type="text" name="Username" id="mytextbox" placeholder="Enter Name" name="mytextbox"> <br /> <br />
+        <label for="">Staff Name:</label>
+        <input type="text" name="mytextbox" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+        <input type="submit" value="submit" id = "ClickMe" name= "ClickMe">
+    </form>
+
+    <!--This code is for displaying visitors data-->
+    <form method="POST" action="php_scripts/display.php" onsubmit= "return substitute ()">
+        <caption><b>ENTER RESPECTIVE DETAILS HERE</b></caption><br />
+        <hr / color="black" cover="100%">
+        <label for="">Visitor's Name:</label>
+        <input type="text" name="mytextbox" id="mytextbox" placeholder="Enter Name"> <br /> <br />
         <input type="submit" value="submit" id = "ClickMe" name= "ClickMe">
     </form>
 
