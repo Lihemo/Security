@@ -4,15 +4,15 @@ include "/opt/lampp/htdocs/security/php_scripts/EshiwaniConnection.php";
 
 $mytextbox2 = $_POST['lecturerdisplay'];
 
-echo "<h3>Lecturer</h3>";
+echo "<h3>LECTURER</h3>";
 $disp= mysqli_query($con,"SELECT * FROM lecturerData WHERE Name='$mytextbox2'");
 
 	if($record = mysqli_fetch_array($disp))
 		{
-		echo $record['Name'];
-		echo $record['Faculty'];
-		echo $record['laptopModel'];
-		echo $record['serialNumber'];
+		echo "<br /> <b>Name</b>:".$record['Name'];
+		echo "<br /> <b>Faculty</b>:".$record['Faculty'];
+		echo "<br /> <b>Laptop Model</b>:".$record['laptopModel'];
+		echo "<br /> <b>Serial Number</b>:".$record['serialNumber'];
 		}
 
 		else{
