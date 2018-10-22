@@ -31,30 +31,30 @@
             <hr color="black" cover="100%" />
 
         <!--this code is for students display data-->
-        <form method="POST" action="display_php/student_display.php" onsubmit="return substitute ()">
+        <form method="POST" action="display_php/student_display.php" onsubmit="return substitute1 ()">
             <label for="">Student's Name:</label>
-            <input type="text" name="studentdisplay" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+            <input type="text" name="studentdisplay" id="mytextbox1" placeholder="Enter Name"> <br /> <br />
             <input type="submit" value="submit" id="ClickMe" name="ClickMe"><br/>
         </form>
 
         <!--this code is for displaying lecturers data-->
-        <form method="POST" action="display_php/lecturer_display.php" onsubmit="return substitute ()">
+        <form method="POST" action="display_php/lecturer_display.php" onsubmit="return substitute2 ()">
             <label for="">Lecturer's Name:</label>
-            <input type="text" name="lecturerdisplay" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+            <input type="text" name="lecturerdisplay" id="mytextbox2" placeholder="Enter Name"> <br /> <br />
             <input type="submit" value="submit" id="ClickMe" name="ClickMe"><br/>
         </form>
 
         <!--This code is for displaying staff data-->
-        <form method="POST" action="display_php/staff_display.php" onsubmit="return substitute ()">
+        <form method="POST" action="display_php/staff_display.php" onsubmit="return substitute3 ()">
             <label for="">Staff Name:</label>
-            <input type="text" name="staffdisplay" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+            <input type="text" name="staffdisplay" id="mytextbox3" placeholder="Enter Name"> <br /> <br />
             <input type="submit" value="submit" id="ClickMe" name="ClickMe"><br/>
         </form>
 
         <!--This code is for displaying visitors data-->
-        <form method="POST" action="display_php/visitors_display.php" onsubmit="return substitute ()">
+        <form method="POST" action="display_php/visitors_display.php" onsubmit="return substitute4 ()">
             <label for="">Visitor's Name:</label>
-            <input type="text" name="visitorsdisplay" id="mytextbox" placeholder="Enter Name"> <br /> <br />
+            <input type="text" name="visitorsdisplay" id="mytextbox4" placeholder="Enter Name"> <br /> <br />
             <input type="submit" value="submit" id="ClickMe" name="ClickMe"><br/>
         </form>
     </fieldset>
