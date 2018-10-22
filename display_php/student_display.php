@@ -1,11 +1,11 @@
 <?php
 //this code is for displaying data(records) from the various tables in the database
-include "EshiwaniConnection.php";
+include "/opt/lampp/htdocs/security/php_scripts/EshiwaniConnection.php";
 
-$mytextbox = $_POST['mytextbox'];
+$mytextbox1 = $_POST['studentdisplay'];
 
 echo "<h3>Student</h3>";
-$disp= mysqli_query($con,"SELECT * FROM studentData WHERE Name='$mytextbox'");
+$disp= mysqli_query($con,"SELECT * FROM studentData WHERE Name='$mytextbox1'");
 
 	if($record = mysqli_fetch_array($disp))
 		{
@@ -13,11 +13,10 @@ $disp= mysqli_query($con,"SELECT * FROM studentData WHERE Name='$mytextbox'");
 		echo $record['Course'];
 		echo $record['laptopModel'];
 		echo $record['serialNumber'];
-		echo "<br/>";
 		}
 
 		else{
-			echo"Student Not in the Database!!";
+			echo"Student Not Present in the Database!!";
 		}
 
 ?>
