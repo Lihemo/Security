@@ -12,7 +12,7 @@ h1{
     padding: 15px;
     border: 6px solid black;
     color:whitesmoke;
-    margin: 6px;
+    margin: 4px;
     font-weight: bold;
 }
 
@@ -54,9 +54,18 @@ form{
     text-align-last: center;
     border: 3px solid yellow;
     padding: 5px;
+    background-color: violet;
+    border-radius: 3px;
+}
+
+fieldset{
+    margin: 2px;
+    text-align-last: center;
+    border: 3px solid yellow;
+    padding: 5px;
     position: absolute;
     width: 30%;
-    height: 650px;
+    height: 390px;
     left: 34%;
     right: 34%;
     background-color: darksalmon;
@@ -74,12 +83,12 @@ marquee{
     border-radius: 5px;
     font-weight: bold;
     position: absolute;
-    top : 490px;
+    top : 610px;
 }
 
 /* The copyright css is here now */
 h3{
     position: absolute;
-    top: 500px;
+    top: 620px;
     left : 40%;
 }
