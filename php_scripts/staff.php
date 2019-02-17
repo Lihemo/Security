@@ -1,6 +1,6 @@
 <?php
   //this code is for submitting data to the database from the staff form.
-	include "EshiwaniConnection.php";
+	include "/opt/lampp/htdocs/secure/php_scripts/EshiwaniConnection.php";
 
 	if(isset($_POST['ClickMe_three']))
 	{

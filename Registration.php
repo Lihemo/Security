@@ -15,23 +15,24 @@
 </head>
 
 <body>
-     <!--this is the navigation bar -->
-     <div class="container">
-            <nav class="navbar navbar-dark navbar-expand-md bg-dark">
-                <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span class="navbar-toggler-icon"></span></button>
-                <div id="myNav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="index.php" class="nav-link">HomePage</a></li>
-                        <li class="nav-item"><a href="Registration.php" class="nav-link">RegistrationPage</a></li>
-                        <li class="nav-item"><a href="https://www.google.com" class="nav-link">Google</a></li>
-                        <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">YouTube</a></li>
-                        <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">Contacts</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div><br />
-        <div class="h1 text-center text-primary"><u>Registration Forms</u></div>
+    <!-- navigation bar -->
+    <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+            <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span class="navbar-toggler-icon"></span></button>
+            <div id="myNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.php" class="nav-link">HomePage</a></li>
+                    <li class="nav-item"><a href="Registration.php" class="nav-link">RegistrationPage</a></li>
+                    <li class="nav-item"><a href="https://www.google.com" class="nav-link">Google</a></li>
+                    <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">YouTube</a></li>
+                    <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div><br />
+    <div class="h1 text-center text-primary"><u>Registration Forms</u></div>
 
+    <!--forms-->
     <div class="container jumbotron">
         <div class="row">
             <div class="col">
@@ -55,9 +56,10 @@
                     <input type="text" id="model" name="model" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="serial" name="serial"> <br /> <br />
-                    <button class="btn btn-primary">Submit</button>
+                    <input type="submit" value="submit" name="ClickMe_one" id = "ClickMe_one" name="ClickMe_one">
                 </Form>
             </div>
+
 
             <div class="col">
                 <!--this code is for the lecturer table-->
@@ -80,11 +82,12 @@
                     <input type="text" id="old" name="old" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="gender" name="gender"> <br /> <br />
-                    <button class="btn btn-primary">Submit</button>
+                    <input type="submit" value="submit" id = "ClickMe" name="ClickMe_two">
 
                 </Form>
             </div>
-        </div><br />
+        </div>
+        <br />
 
         <div class="row">
             <div class="col">
@@ -108,7 +111,7 @@
                     <input type="text" id="bet" name="bet" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="polite" name="polite"> <br /> <br />
-                    <button class="btn btn-primary">Submit</button>
+                    <input type="submit" value="submit" id = "ClickMe" name="ClickMe_three" class="btn-primary">
 
                 </Form>
             </div>
@@ -136,11 +139,10 @@
                     <input type="text" id="nervous" name="nervous" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="thanks" name="thanks"> <br /> <br />
-                    <button class="btn btn-primary">Submit</button>
+                    <input type="submit" value="submit" id = "ClickMe" name="ClickMe_four">
                 </Form>
             </div>
         </div>
-    </div>
     </div>
 
     <!--this is the footer-->
