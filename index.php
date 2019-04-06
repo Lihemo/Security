@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
     <meta charset="utf-8" />
@@ -20,50 +20,46 @@
     <div class="container">
         <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark">
             <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span class="navbar-toggler-icon"></span></button>
-            <div id="myNav" class="collapse navbar-collapse"><div class="h3 text-primary ml-5">Universal Security Systems Corporation</div>
+            <div id="myNav" class="collapse navbar-collapse">
+                <div class="h3 text-primary ml-5">Eshiwani Security Systems(ESS)</div>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link">HomePage</a></li>
-                    <li class="nav-item"><a href="Registration.php" class="nav-link">RegistrationPage</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="Registration.php" class="nav-link">Registration</a></li>
                     <li class="nav-item"><a href="https://www.google.com" class="nav-link">Google</a></li>
                     <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">YouTube</a></li>
-                    <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">Contacts</a></li>
                 </ul>
             </div>
         </nav>
     </div>
 
     <!--this is the carousel-->
-    <div class="container">
-        <div id="john" class="carousel slide" data-ride="carousel">
-            <!--indicators-->
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
+    <div id="john" class="carousel slide" data-ride="carousel">
 
-            <!--slideshow-->
-            <div class="carousel-inner fluid">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/current.jpeg" alt="First slide">
-                    <div class="carousel-caption"><span class="h4 text-primary">Security Starts with You!</span></div>
-                </div>
-                <div class="carousel-item ">
-                    <img class="d-block w-100" src="img/Beautiful.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/banner-img.jpg" alt="Third slide">
-                </div>
+        <!--slideshow-->
+        <div class="carousel-inner fluid">
+            <div class="carousel-item active">
+                <img class="d-block w-100 caro" src="img/Beautiful.jpg" alt="First slide">
+                <div class="carousel-caption"><span class="h4 text-primary">Security Starts with You!</span></div>
             </div>
+            <div class="carousel-item ">
+                <img class="d-block w-100 caro" src="img/home-office.jpg" alt="Second slide">
+                <div class="carousel-caption"><span class="h4 text-white">Forgot your laptop at work? No worries as
+                        long as you have
+                        ESS systems around you.</span></div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 caro" src="img/team.jpg" alt="Third slide">
+                <div class="carousel-caption"><span class="h4 text-white">Be a good team player. Don't worry about
+                        security WE GOT YOU.
+                    </span></div>
+            </div>
+        </div><br />
 
-            <!--left and right controls-->
-            <div>
-                <a class="carousel-control-prev" href="#demo" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                <a class="carousel-control-next" href="#demo" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-            </div>
-        </div>
+
+    <!--this is the welcome note-->
+    <div class="text-center">
+        <p class="h6 text-primary"> Welcome to ESS where we NEVER take security for granted!!</p>
     </div><br />
-    <!--carousel ends here-->
 
 
     <!--forms-->
@@ -99,6 +95,7 @@
             </form>
         </div>
 
+
         <!--the memo section-->
         <div class="col">
             <h3 class="text-center"><u>STAFF MEMO</u></h3>
@@ -109,6 +106,7 @@
                 temporibus explicabo necessitatibus obcaecati
                 minus rerum placeat nam dolores? Doloremque tenetur repellat enim aliquam distinctio blanditiis fugit
                 vitae assumenda quos vel.</p>
+            <hr />
             <h3 class="text-center"><u>STUDENT MEMO</u></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat dolorum nihil
                 aspernatur.Similique esse, veniam nobis iure voluptas ut nostrum? Commodi impedit perferendis dolores
@@ -120,98 +118,168 @@
         </div>
     </div>
 
-    <div class="container jumbotron">
-        <div class="h4 text-center">Other Services We Offer</div>
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                        <div class="card-header bg-success">Banking Systems</div>
-                        <div class="card-body">
-                            <img class="card-img-top img-fluid" src=img/buildings.jpeg> 
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
-                                aperiam eum,
-                                consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
-                                incidunt optio
-                                quibusdam doloribus sapiente! Quisquam, quibusdam.</p>
-                        </div>
-                </div>
+    <!--this section describes the other services the company also offers-->
+    <div class="h4 ml-1">Our Services</div>
+    <div class="row">
+        <div class="col card bajie">
+            <div class="card-header bg-success">Security</div>
+            <div class="card-body">
+                <img class="card-img-top img-fluid" src=img/background.jpg> 
+                <br />
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
+                    aperiam eum,
+                    consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
+                    incidunt optio
+                    quibusdam doloribus sapiente! Quisquam, quibusdam.</p>
             </div>
-            <div class="col">
-                <div class="card">
-                        <div class="card-header bg-success">Web Development Services</div>
-                        <div class="card-body">
-                            <img class="card-img-top img-fluid" src=img/buildings.jpeg> 
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
-                                aperiam eum,
-                                consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
-                                incidunt optio
-                                quibusdam doloribus sapiente! Quisquam, quibusdam.</p>
-                        </div>
-                </div>
+            <div class="card-footer bg-success">Footer</div><br />
+        </div>
+    
+        <div class="col card bajie">
+            <div class="card-header bg-success">Trainning</div>
+            <div class="card-body">
+                <img class="card-img-top img-fluid" src=img/girl.jpg> 
+                <br />
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
+                    aperiam eum,
+                    consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
+                    incidunt optio
+                    quibusdam doloribus sapiente! Quisquam, quibusdam.</p>
+            </div>
+            <div class="card-footer bg-success">Footer</div><br />
+        </div>
+    
+        <div class="col card bajie">
+            <div class="card-header bg-success">Charity</div>
+            <div class="card-body">
+                <img class="card-img-top img-fluid" src=img/Baby.jpg> 
+                <br />
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
+                    aperiam eum,
+                    consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
+                    incidunt optio
+                    quibusdam doloribus sapiente! Quisquam, quibusdam.</p>
+            </div>
+            <div class="card-footer bg-success">Footer</div><br />
+        </div>
+    </div><br />
 
-            </div>
-            <div class="col">
-                <div class="card">
-                        <div class="card-header bg-success">ICT Consoltancy</div>
-                        <div class="card-body">
-                            <img class="card-img-top img-fluid" src=img/buildings.jpeg> 
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
-                                aperiam eum,
-                                consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
-                                incidunt optio
-                                quibusdam doloribus sapiente! Quisquam, quibusdam.</p>
-                        </div>
-                </div>
 
-            </div>
-            <div class="col">
-                <div class="card">
-                        <div class="card-header bg-success">Systems Repair and Upadation</div>
-                        <div class="card-body">
-                            <img class="card-img-top img-fluid" src=img/buildings.jpeg> 
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
-                                aperiam eum,
-                                consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
-                                incidunt optio
-                                quibusdam doloribus sapiente! Quisquam, quibusdam.</p>
-                        </div>
-                </div>
-            </div>
+    <!--this section displays the users of the system-->
+    <div class='row bg-primary text-white jumbotron text-center'>
+        <div class='col'>Users 450k+</div>
+        <div class='col'>Countries 94+</div>
+        <div class='col'>7 Continets</div>
+    </div>
+
+    <!--this is the patners-->
+    <div class="row">
+        <div class="col"><img class="pat ml-4" src="img/men.jpg" alt="No pic for you!"></div>
+        <div class="col ml-6">
+            <ul>
+                <div class="h5"><u>Partners</u></div>
+                <li>Department of Defense DoD(USA)</li>
+                <li>Google Inc</li>
+                <li>Chevrolet Inc</li>
+                <li>iOS App</li>
+                <li>Product Hunt</li>
+                <li>Lenovo Inc</li>
+                <li>Microsoft</li>
+                <li>Nucleo</li>
+                <li>Explore</li>
+                <li>Kenya Airways</li>
+                <li>Qatar Airways</li>
+                <li>Ethiopian Airlines</li>
+            </ul>
+        </div>
+    
+        <div class="col">
+            <ul>
+                <div class="h5"><u>Products</u></div>
+                <li>Banking Systems</li>
+                <li>Library Systems</li>
+                <li>Alarm Systems</li>
+                <li>Motion Detector Systems</li>
+                <li>CCTV Sytems</li>
+                <li>Motor vehicle tracking Systems</li>
+                <li>Files organization Systems</li>
+            </ul>
         </div>
     </div>
 
-    <!--this is the patners section-->
-    <div class="container">
-            <div class="h3 text-underlined"><u>Our Patners</u></div>
-            <div class="row">
-                <div class="col"><img src="img/rural.jpeg" alt="The image is displayed here" class="img-fluid"></div>
-                <div class="col"><img src="img/farm.jpeg" alt="Sorry no image for YOU!!!" class="img-fluid"></div>
-                <div class="col"><img src="img/country.jpeg" alt="Sorry bruh no image!!!" class="img-fluid"></div>
-                <div class="col"><img src="img/banner-img.jpeg" alt="NO picture for you" class="img-fluid"></div><br />
-            </div><br />
+    <hr style="width:100%;" />
+    <div class="row">
+        <div class="jumbotron bg-white text-center col"><b class="fon">From a designer to all the others.</b><br />
+            Designed, developed and maintained by one guy only.
         </div>
+        <div class="col mr-15"><img class="free" src="img/freelance.png" alt="Freelancer"></div>
+    </div>
+    </div>
 
-        <!--this is the footer section-->
-    <div class="row bg-success ">
+    <!--this is the contacts section-->
+    <hr style="width:100%;" /><br />
+    <div class="h4 ml-3"><u>Contacts</u></div><br />
+    <div class="row text-center">
         <div class="col">
-            <footer class="page-footer">
-                <div class="footer-copyright text-left py-3"><span class="h6 ml-5">Copyright &copy 2019. All rights
-                        reserved.</span></div>
-                <div class="col">
-                    <div class="text-center mb-2">
-                        <a href="https://www.twitter.com/johnlihemo" title="twitter handle"><i class="fa fa-twitter-square fa-lg "></i></a>
-                        <a href="https://www.facebook.com/johnlukaku" title="facebook page"><i class="fa fa-facebook-square fa-lg"></i></a>
-                        <a href="https://www.instagram.com/johnlihemo" title="instagram account"><i class="fa fa-instagram fa-lg"></i></a>
-                        <a href="https://www.linkedin.com/johnlihemo" title="linkedin account"><i class="fa fa-linkedin-square fa-lg"></i></a>
-                        <a href="https://www.github.com/johnlihemo" title="github repo"><i class="fa fa-github-square fa-lg"></i></a>
-                    </div>
-                </div>
+            <h6><b>United States of America</b></h6>
+            Newyork City<br />
+            ESS Building<br />
+            24th Street<br />
+            Contact:0791989156<br />
+            Email:www.essuasa.org
         </div>
-        </footer>
+        <div class="col">
+            <h6><b>France</b></h6>
+            Paris<br />
+            Free Sate Building<br />
+            14th Street<br />
+            Contact:0721589156<br />
+            Email:www.essfr.org
+        </div>
+        <div class="col">
+            <h6><b>Japan</b></h6>
+            Tokyo<br />
+            Tenri University Building<br />
+            54th Street<br />
+            Contact:0721799156<br />
+            Email:www.essjpn.org
+        </div>
+        <div class="col">
+            <h6><b>South Africa</b></h6>
+            Pretoria<br />
+            I&M Building<br />
+            74th Street<br />
+            Contact:0721989156<br />
+            Email:www.esssa.org
+        </div>
+        <div class="col">
+            <h6><b>Qatar</b></h6>
+            Newyork City<br />
+            Al-Mouradi Building<br />
+            27th Street<br />
+            Contact:0721984556<br />
+            Email:www.essqtr.org
+        </div>
+    </div><br />
+
+    <!--this is the footer section-->
+    <div class="row ">
+        <div class="col">
+            <div class="col">
+                <div class="text-center mb-2">
+                    <a href="https://www.twitter.com/johnlihemo" title="twitter handle"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="https://www.facebook.com/johnlukaku" title="facebook page"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="https://www.instagram.com/johnlihemo" title="instagram account"><i class="fa fa-instagram fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/johnlihemo" title="linkedin account"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                    <a href="https://www.github.com/johnlihemo" title="github repo"><i class="fa fa-github-square fa-3x"></i></a>
+                </div>
+            </div>
+            <hr style="width:100%;" />
+            <div class="footer-copyright text-center py-3"><span class="h6 ml-5">Copyright &copy 2019. ESS</span></div>
+        </div>
     </div>
 
 
 </body>
-
 
 </html>

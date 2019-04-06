@@ -21,11 +21,10 @@
             <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span class="navbar-toggler-icon"></span></button>
             <div id="myNav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link">HomePage</a></li>
-                    <li class="nav-item"><a href="Registration.php" class="nav-link">RegistrationPage</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="Registration.php" class="nav-link">Registration</a></li>
                     <li class="nav-item"><a href="https://www.google.com" class="nav-link">Google</a></li>
                     <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">YouTube</a></li>
-                    <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">Contacts</a></li>
                 </ul>
             </div>
         </nav>
@@ -147,7 +146,7 @@
 
     <!--this is the footer-->
     <div class="footer h3 text-center">
-        Copyright &copy; 2018. All rights reserved
+        Copyright &copy; 2018. ESS
     </div>
 
 </body>

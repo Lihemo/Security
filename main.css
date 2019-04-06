@@ -6,3 +6,19 @@ form {
     padding: 5px;
     border-radius: 5px;
 }
+
+.pat{
+    width: 600px;
+}
+
+.free{
+    widows: 300px;
+}
+
+.bajie{
+    margin: 1px;
+}
+
+li{
+    list-style-type: none;
+}
