@@ -16,19 +16,18 @@
 
 <body>
     <!-- navigation bar -->
-    <div class="container">
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
-            <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span class="navbar-toggler-icon"></span></button>
-            <div id="myNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="Registration.php" class="nav-link">Registration</a></li>
-                    <li class="nav-item"><a href="https://www.google.com" class="nav-link">Google</a></li>
-                    <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">YouTube</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div><br />
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+        <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span
+                class="navbar-toggler-icon"></span></button>
+        <div id="myNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="Registration.php" class="nav-link">Registration</a></li>
+                <li class="nav-item"><a href="https://www.google.com" class="nav-link">Google</a></li>
+                <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">YouTube</a></li>
+            </ul>
+        </div>
+    </nav>  <br />
     <div class="h1 text-center text-primary"><u>Registration Forms</u></div>
 
     <!--forms-->
@@ -55,7 +54,8 @@
                     <input type="text" id="model" name="model" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="serial" name="serial"> <br /> <br />
-                    <input type="submit" value="submit" name="ClickMe_one" id = "ClickMe_one" name="ClickMe_one">
+                    <input type="submit" value="submit" name="ClickMe_one" id="ClickMe_one" name="ClickMe_one"
+                        class="btn-primary">
                 </Form>
             </div>
 
@@ -81,7 +81,7 @@
                     <input type="text" id="old" name="old" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="gender" name="gender"> <br /> <br />
-                    <input type="submit" value="submit" id = "ClickMe" name="ClickMe_two">
+                    <input type="submit" value="submit" id="ClickMe" name="ClickMe_two" class="btn-primary">
 
                 </Form>
             </div>
@@ -110,7 +110,7 @@
                     <input type="text" id="bet" name="bet" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="polite" name="polite"> <br /> <br />
-                    <input type="submit" value="submit" id = "ClickMe" name="ClickMe_three" class="btn-primary">
+                    <input type="submit" value="submit" id="ClickMe" name="ClickMe_three" class="btn-primary">
 
                 </Form>
             </div>
@@ -138,7 +138,7 @@
                     <input type="text" id="nervous" name="nervous" placeholder="Manufacturer's Name"> <br /> <br />
                     <label>Serial Number:</label>
                     <input type="text" id="thanks" name="thanks"> <br /> <br />
-                    <input type="submit" value="submit" id = "ClickMe" name="ClickMe_four">
+                    <input type="submit" value="submit" id="ClickMe" name="ClickMe_four" class="btn-primary">
                 </Form>
             </div>
         </div>
