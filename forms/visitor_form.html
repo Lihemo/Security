@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visitor Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        form {
+            border: 2px solid black;
+            padding: 8px;
+            border-radius: 5px;
+            width: 45%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <?php
+        include "/opt/lampp/htdocs/security/navigation_bar.php";
+    ?>
+
+    <!--this code is for the visitor table-->
+    <div class="jumbotron col">
+        <Form method="POST" action="php_scripts/visitor.php" id="visitor" onsubmit="return visitor()">
+            <div class="h3 text-center"><u>Visitor Form</u></div>
+            <label for="">Name:</label>
+            <input type="text" id="clueless" name="clueless"> <br /> <br />
+            <label for="">Destination:</label>
+
+            <!--this code below is for the dropdown menu-->
+            <select name="looking" id="looking">
+                <option value="Administration Block">Administration Block</option>
+                <option value="Hotel and Conference">Hotel and Conference</option>
+                <option value="Hostels">Hostels</option>
+                <option value="Stadia">Stadia</option>
+            </select> <br /> <br />
+            <!--the value content is what is used in the php scripts.-->
+            <!--it ends here-->
+
+            <label for="">Laptop Model:</label>
+            <input type="text" id="nervous" name="nervous" placeholder="Manufacturer's Name"> <br /> <br />
+            <label>Serial Number:</label>
+            <input type="text" id="thanks" name="thanks"> <br /> <br />
+            <input type="submit" value="submit" id="ClickMe" name="ClickMe_four" class="btn-primary">
+        </Form>
+    </div>
+
+    <!--this is the footer-->
+    <div class="footer h5 text-center">
+        ESS Terms and Condition | Privacy Policy | &copy 2019. ESS
+    </div>
+
+</body>
+
+</html>
