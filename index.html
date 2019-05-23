@@ -8,17 +8,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/opt/lampp/htdocs/secure/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="main.js"></script>
     <script src="js/jquery.js"></script>
-    <script type="text/javascript" src="/opt/lampp/htdocs/secure/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
-    <?php
-    include "/opt/lampp/htdocs/security/navigation_bar.php";
-    ?>
+    <!--this is the navigation bar -->
+    <div class="container">
+        <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark">
+            <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div id="myNav" class="collapse navbar-collapse">
+                <div class="h3 text-primary ml-5">Eshiwani Security Systems(ESS)</div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.php" class="nav-link h6">Home</a></li>
+                    <li class="nav-item"><a href="#about_us" class="nav-link h6">About Us </a></li>
+                    <li class="nav-item"><a href="Registration.php" class="nav-link h6">Registration</a></li>
+                    <li class="nav-item"><a href="#lappiz" class="nav-link h6">Laptops</a></li>
+                    <li class="nav-item"><a href="#mamemoz" class="nav-link h6">Memos </a></li>
+                    <li class="nav-item"><a href="#magariz" class="nav-link h6">Vehicles</a></li>
+                    <li class="nav-item"><a href="#mangoz" class="nav-link h6">Mobile</a></li>
+                    <li class="nav-item"><a href="#patnerz" class="nav-link h6">Patners </a></li>
+                    <li class="nav-item"><a href="#contactz" class="nav-link h6">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
 
     <!--this is the carousel-->
@@ -27,13 +45,13 @@
         <!--slideshow-->
         <div class="carousel-inner fluid sizing">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/opt/lampp/htdocs/secure/img/team.jpg" alt="First slide">
+                <img class="d-block w-100" src="img/team.jpg" alt="First slide">
             </div>
             <div class="carousel-item ">
-                <img class="d-block w-100" src="/opt/lampp/htdocs/secure/img/startup.jpg" alt="Second slide">
+                <img class="d-block w-100" src="img/startup.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/opt/lampp/htdocs/secure/img/dame.png" alt="Third slide">
+                <img class="d-block w-100" src="img/dame.png" alt="Third slide">
             </div>
         </div>
     </div><br />
@@ -48,7 +66,7 @@
 
     <!-- laptop forms-->
     <div class="row">
-        <div class="col jumbotron">
+        <div class="col jumbotron" id="lappiz">
             <h4 class="text-center"><u> LAPTOPS SECTION</u></h4><br />
             <!--this code is for students display data-->
             <form method="POST" action="display_php/student_display.php" onsubmit="return substitute1 ()">
@@ -79,9 +97,8 @@
             </form>
         </div>
 
-
         <!--the memo section-->
-        <div class="col">
+        <div class="col" id="mamemoz">
             <h3 class="text-center"><u>STAFF MEMO</u></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat dolorum nihil
                 aspernatur.Similique esse, veniam nobis iure voluptas ut nostrum? Commodi impedit perferendis dolores
@@ -110,7 +127,7 @@
     </div><br />
 
     <!--this is the vehicle display form-->
-    <div class="row">
+    <div class="row"  id="magariz">
         <div class="col jumbotron">
             <h4 class="text-center"><u> VEHICLES SECTION</u></h4><br />
             <!--this code is for students display data-->
@@ -122,7 +139,7 @@
         </div>
 
         <!--this is the vehicle display form-->
-        <div class="col jumbotron">
+        <div class="col jumbotron ml-1" id="mangoz">
             <h4 class="text-center"><u> MOBILE SECTION</u></h4><br />
             <!--this code is for students display data-->
             <form method="POST" action="display_php/student_display.php" onsubmit="return substitute1 ()">
@@ -177,34 +194,54 @@
     </div><br />
 
     <!--this is the patners section-->
-    <div class=" row ">
-        <div class="col"><img src="img/men.jpg" alt="No pic for you!"></div>
-        <div class="col text-center">
-            <ul class="text-left">
-                <div class="h5"><u>Partners</u></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</P>
-                <li>Department of Defense DoD(USA)</li>
-                <li>Google Inc</li>
-                <li>Chevrolet Inc</li>
-                <li>iOS App</li>
-                <li>Product Hunt</li>
-                <li>Lenovo Inc</li>
-                <li>Microsoft</li>
-                <li>Nucleo</li>
-                <li>Explore</li>
-                <li>Kenya Airways</li>
-                <li>Qatar Airways</li>
-                <li>Ethiopian Airlines</li>
-            </ul>
+    <div id="patnerz">
+        <p class="h5 text-center">Our Happy Patners</p>
+        <div class=" row ">
+            <div class="col ml-4"><img src="img/pine.jpg" alt="No pic for you!">
+                <p class="text-center"><br /><b>Tenri University</b> in Japan uses
+                    ESS systems for their security.They offer variety of acaddemics and social programmes which are
+                    marketable and affordable.</p>
+
+            </div>
+
+            <div class="col"><img src="img/handcuffs.jpg" alt="No pic for you!">
+                <p class="text-center"><br /><b>Department of Corrections and Logistics </b>in South
+                    Africa uses ESS systems to secure their premises and machines. This ensure efficiency in their work
+                    therefore resulting to
+                    smooth workflow.
+                </p>
+
+            </div>
         </div>
     </div><br />
 
-    <hr style="width:100%;" />
+    <div class="jumbotron" id="about_us">
+        <p class="h4"><u>About Us</u></p><br />
+        <p>ESS is an ICT company which offers variety of security solutions. The company was founded by John Eshiwani in
+            2008 in
+            USA.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem dolor
+            aperiam eum,
+            consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
+            incidunt optio
+            quibusdam doloribus sapiente! Quisquam, quibusdam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Officiis autem dolor
+            aperiam eum,
+            consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
+            incidunt optio
+            quibusdam doloribus sapiente! Quisquam, quibusdam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Officiis autem dolor
+            aperiam eum,
+            consequuntur vero aspernaturnecessitatibus exercitationem cupiditate hic voluptas culpa, iure
+            incidunt optio
+            quibusdam doloribus sapiente! Quisquam, quibusdam.
+
+        </p>
+    </div>
 
     <hr style="width:100%;" />
 
     <!--this is the contacts section-->
-    <div class="bg-dark text-white">
+    <div class="bg-dark text-white" id="contactz">
         <br />
         <div class="h4 ml-3 "><u>Contacts</u></div><br />
         <div class="row text-center">
@@ -267,8 +304,11 @@
                 </div>
             </div>
         </div><br />
-    </div><br />
+    </div>
 
+    <div class="footer-copyright text-center py-3 h6">Terms and Condition | Privacy Policy | &copy
+        2019. ESS
+    </div>
 
 </body>
 
