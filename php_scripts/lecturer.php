@@ -1,16 +1,16 @@
 <?php
  //this code is for submitting data to the database from  the lecturer form.
-	include "/opt/lampp/htdocs/secure/php_scripts/EshiwaniConnection.php";
+	include "/opt/lampp/htdocs/security/php_scripts/EshiwaniConnection.php";
 
-	if(isset($_POST['ClickMe_two']))
+	if(isset($_POST['ClickMe_four']))
 	{
-		$car = $_POST['car'];
-		$chair = $_POST['chair'];
-		$old = $_POST['old'];
-		$gender = $_POST['gender'];
+		$arc = $_POST['clueless'];
+		$kalisha = $_POST['kiti'];
+		$buda = $_POST['uzee'];
+		$mdem = $_POST['jinsia'];
 
 		$sql = "INSERT INTO lecturerData (Name,Faculty,laptopModel,serialNumber) 
-		VALUES ('$car', '$chair', '$old','$gender')";
+		VALUES ('$arc', '$kalisha', '$buda','$mdem')";
 
 		mysqli_query($con,$sql);
 	}

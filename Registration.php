@@ -26,8 +26,8 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="index.php" class="nav-link h6">Home</a></li>
                     <li class="nav-item"><a href="#regista" class="nav-link h6">Laptops</a></li>
-                    <li class="nav-item"><a href="vehicles_form.html" class="nav-link h6"" >Vehicles</a></li>
-                    <li class=" nav-item"><a href="mobile_form.html" class="nav-link h6">Mobile</a></li>
+                    <li class="nav-item"><a href="vehicles_form.php" class="nav-link h6"" >Vehicles</a></li>
+                    <li class=" nav-item"><a href="mobile_form.php" class="nav-link h6">Mobile</a></li>
                 </ul>
             </div>
         </nav>
@@ -56,10 +56,10 @@
     <!--this is the registration forms section for the laptops-->
     <div id='regista'style="width:20%">
         <ul class="list-group ml-5">
-            <li class="list-group-item"><a href="student_form.html">Student Form</a></li>
-            <li class="list-group-item"><a href="staff_form.html">Staff Form</a></li>
-            <li class="list-group-item"><a href="lecturer_form.html">Lecturer Form</a></li>
-            <li class="list-group-item"><a href="visitor_form.html">Visitor Form</a></li>
+            <li class="list-group-item"><a href="student_form.php">Student Form</a></li>
+            <li class="list-group-item"><a href="staff_form.php">Staff Form</a></li>
+            <li class="list-group-item"><a href="lecturer_form.php">Lecturer Form</a></li>
+            <li class="list-group-item"><a href="visitor_form.php">Visitor Form</a></li>
         </ul>
     </div><br />
 

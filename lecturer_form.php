@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Staff Form</title>
+    <title>Lecturer Form</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         form {
@@ -18,10 +18,10 @@
     <script>
         //this js code is for the lecturer form validation
         function lecturer() {
-            var name = document.getElementById('car').value;
-            var course = document.getElementById('chair').value;
-            var modeli = document.getElementById('old').value;
-            var serial_number = document.getElementById('gender').value;
+            var name = document.getElementById('clueless').value;
+            var course = document.getElementById('kiti').value;
+            var modeli = document.getElementById('uzee').value;
+            var serial_number = document.getElementById('jinsia').value;
 
             if (name == '' || course == '' || modeli == '' || serial_number == '') {
                 alert('Please Enter Real Values then Submit');
@@ -55,39 +55,40 @@
             <div id="myNav" class="collapse navbar-collapse">
                 <div class="h3 text-primary ml-5">Eshiwani Security Systems(ESS)</div>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link h6">Home</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link h6">Home</a></li>
                     <li class="nav-item"><a href="Registration.php" class="nav-link h6">Registration</a></li>
-                    <li class="nav-item"><a href="laptops_form.html" class="nav-link h6">Laptops</a></li>
-                    <li class="nav-item"><a href="vehicles_form.html" class="nav-link h6">Vehicles</a></li>
-                    <li class="nav-item"><a href="mobile_form.html" class="nav-link h6">Mobile</a></li>
+                    <li class="nav-item"><a href="laptops_form.php" class="nav-link h6">Laptops</a>
+                    </li>
+                    <li class="nav-item"><a href="vehicles_form.php" class="nav-link h6">Vehicles</a></li>
+                    <li class="nav-item"><a href="mobile_form.php" class="nav-link h6">Mobile</a></li>
                 </ul>
             </div>
         </nav>
     </div><br />
 
 
+    <!--this code is for the visitor table-->
     <div class="jumbotron col">
-        <!--this code is for the lecturer table-->
-        <Form method="POST" action="php_scripts/lecturer.php" id="lecturer" onsubmit="return lecturer ()">
-            <div class="h3 text-center"><u>Staff Form</u></div>
-            <label>Name:</label>
-            <input type="text" id="car" name="car"> <br /> <br />
-            <label for="">Department:</label>
+        <Form method="POST" action="php_scripts/lecturer.php" onsubmit="return lecturer()">
+            <div class="h3 text-center"><u>Lecturer Form</u></div>
+            <label for="">Name:</label>
+            <input type="text" id="clueless" name="clueless"> <br /> <br />
+            <label for="">Faculty:</label>
 
             <!--this code below is for the dropdown menu-->
-            <select name="chair" id="chair">
-                <option value="Department of Securtiy">Department of Securtiy</option>
-                <option value="Department of Cleaning">Department of Cleaning</option>
-                <option value="Department of Finance">Department of Finance</option>
-                <option value="Department of Admission">Department of Admission</option>
+            <select name="kiti" id="kiti">
+                <option value="Faculty of IT and Computing">Faculty of IT and Computing</option>
+                <option value="Faculty of Applied Sciences">Faculty of Applied Sciences</option>
+                <option value="Faculty of Agriculture">Faculty of Agriculture</option>
+                <option value="Faculty of Engineering">Faculty of Engineering</option>
             </select> <br /> <br />
             <!--it ends here-->
 
             <label for="">Laptop Model:</label>
-            <input type="text" id="old" name="old" placeholder="Manufacturer's Name"> <br /> <br />
+            <input type="text" id="uzee" name="uzee" placeholder="Manufacturer's Name"> <br /> <br />
             <label>Serial Number:</label>
-            <input type="text" id="gender" name="gender"> <br /> <br />
-            <input type="submit" value="submit" id="ClickMe" name="ClickMe_two" class="btn-primary">
+            <input type="text" id="jinsia" name="jinsia"> <br /> <br />
+            <input type="submit" value="submit" id="ClickMe_four" name="ClickMe_four" class="btn-primary">
         </Form>
     </div>
 
@@ -97,6 +98,7 @@
     <div class="footer h5 text-center">
         ESS Terms and Condition | Privacy Policy | &copy 2019. ESS
     </div>
+
 </body>
 
 </html>

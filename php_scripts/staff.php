@@ -1,16 +1,16 @@
 <?php
   //this code is for submitting data to the database from the staff form.
-	include "/opt/lampp/htdocs/secure/php_scripts/EshiwaniConnection.php";
+	include "/opt/lampp/htdocs/security/php_scripts/EshiwaniConnection.php";
 
-	if(isset($_POST['ClickMe_three']))
+	if(isset($_POST['ClickMe_two']))
 	{
-		$dart = $_POST['dart'];
-		$shade = $_POST['shade'];
-		$bet = $_POST['bet'];
-		$polite = $_POST['polite'];
+		$dart = $_POST['car'];
+		$shade = $_POST['chair'];
+		$bet = $_POST['old'];
+		$polite = $_POST['gender'];
 
 		$sql = "INSERT INTO staffData (Name,Department,laptopModel,serialNumber)
-		 VALUES ('$dart', '$shade', '$bet','$polite')";
+		VALUES ('$dart', '$shade', '$bet','$polite')";
 		
 		mysqli_query($con,$sql);
 	};

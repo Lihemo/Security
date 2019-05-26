@@ -1,16 +1,17 @@
 <?php
  //this code is for submitting data to the database from the visitors form.
-	include "/opt/lampp/htdocs/secure/php_scripts/EshiwaniConnection.php";
+	include "/opt/lampp/htdocs/security/php_scripts/EshiwaniConnection.php";
 
 	if(isset($_POST['ClickMe_four']))
 	{
-		$clueless = $_POST['clueless'];
-		$looking = $_POST['looking'];
-		$nervous = $_POST['nervous'];
-		$thanks = $_POST['thanks'];
+		$kosa = $_POST['less'];
+		$rada = $_POST['angalia'];
+		$wasiwasi = $_POST['viatu'];
+		$asante = $_POST['njia'];
 
-		$sql = "INSERT INTO visitorsData (Name,Destination,laptopModel,serialNumber) 
-		VALUES ('$clueless', '$looking', '$nervous','$thanks')";
+		print "$kosa<br /> $rada<br /> $wasiwasi<br /> $asante";
+
+		$sql = "INSERT INTO visitorsData (Name,Destination,laptopModel,serialNumber) VALUES ('$kosa', '$rada', '$wasiwasi','$asante')";
 
 		mysqli_query($con,$sql);
 	};

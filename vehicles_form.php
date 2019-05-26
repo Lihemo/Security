@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lecturer Form</title>
+    <title>Vehicles Form</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         form {
@@ -17,11 +17,11 @@
     </style>
     <script>
         //this js code is for the lecturer form validation
-        function lecturer() {
-            var name = document.getElementById('car').value;
-            var course = document.getElementById('chair').value;
-            var modeli = document.getElementById('old').value;
-            var serial_number = document.getElementById('gender').value;
+        function gari() {
+            var name = document.getElementById('brand').value;
+            var course = document.getElementById('bumper').value;
+            var modeli = document.getElementById('make').value;
+            var serial_number = document.getElementById('gonga').value;
 
             if (name == '' || course == '' || modeli == '' || serial_number == '') {
                 alert('Please Enter Real Values then Submit');
@@ -57,38 +57,28 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="index.php" class="nav-link h6">Home</a></li>
                     <li class="nav-item"><a href="Registration.php" class="nav-link h6">Registration</a></li>
-                    <li class="nav-item"><a href="laptops_form.html" class="nav-link h6">Laptops</a>
-                    </li>
-                    <li class="nav-item"><a href="vehicles_form.html" class="nav-link h6">Vehicles</a></li>
-                    <li class="nav-item"><a href="mobile_form.html" class="nav-link h6">Mobile</a></li>
+                    <li class="nav-item"><a href="laptop_form.php" class="nav-link h6">Laptops</a></li>
+                    <li class="nav-item"><a href="vehicles_form.php" class="nav-link h6">Vehicles</a></li>
+                    <li class="nav-item"><a href="mobile_form.php" class="nav-link h6">Mobile</a></li>
                 </ul>
             </div>
         </nav>
     </div><br />
 
 
-    <!--this code is for the visitor table-->
-    <div class="jumbotron col">
-        <Form method="POST" action="php_scripts/visitor.php" id="visitor" onsubmit="return visitor()">
-            <div class="h3 text-center"><u>Lecturer Form</u></div>
+    <!--this code is for the vehicles table-->
+    <div class="jumbotron">
+        <Form method="POST" action="php_scripts/vehicle.php" id="gari" onsubmit="return gari()">
+            <div class="h3 text-center"><u>Vehicles Registration Form</u></div>
             <label for="">Name:</label>
-            <input type="text" id="clueless" name="clueless"> <br /> <br />
-            <label for="">Faculty:</label>
-
-            <!--this code below is for the dropdown menu-->
-            <select name="chair" id="chair">
-                <option value="Faculty of IT and Computing">Faculty of IT and Computing</option>
-                <option value="Faculty of Applied Sciences">Faculty of Applied Sciences</option>
-                <option value="Faculty of Agriculture">Faculty of Agriculture</option>
-                <option value="Faculty of Engineering">Faculty of Engineering</option>
-            </select> <br /> <br />
-            <!--it ends here-->
-
-            <label for="">Laptop Model:</label>
-            <input type="text" id="nervous" name="nervous" placeholder="Manufacturer's Name"> <br /> <br />
-            <label>Serial Number:</label>
-            <input type="text" id="thanks" name="thanks"> <br /> <br />
-            <input type="submit" value="submit" id="ClickMe" name="ClickMe_four" class="btn-primary">
+            <input type="text" id="brand" name="brand"> <br /> <br />
+            <label for="">ID Number:</label>
+            <input type="text" id="bumper" name="bumper"> <br /> <br />
+            <label for="">Vehicle Model:</label>
+            <input type="text" id="make" name="make" placeholder="Manufacturer's Name"> <br /> <br />
+            <label>Plate Number:</label>
+            <input type="text" id="gonga" name="gonga"> <br /> <br />
+            <input type="submit" value="submit" id="ClickMe_six" name="ClickMe_six" class="btn-primary">
         </Form>
     </div>
 
@@ -98,7 +88,6 @@
     <div class="footer h5 text-center">
         ESS Terms and Condition | Privacy Policy | &copy 2019. ESS
     </div>
-
 </body>
 
 </html>

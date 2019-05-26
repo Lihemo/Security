@@ -12,6 +12,10 @@
     <script type="text/javascript" src="main.js"></script>
     <script src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+    
+
+    </script>
 
 </head>
 
@@ -131,9 +135,9 @@
         <div class="col jumbotron">
             <h4 class="text-center"><u> VEHICLES SECTION</u></h4><br />
             <!--this code is for students display data-->
-            <form method="POST" action="display_php/student_display.php" onsubmit="return substitute1 ()">
-                <label for="">ID number:</label>
-                <input type="text" name="studentdisplay" id="mytextbox1" placeholder="Enter ID Number"> <br />
+            <form method="POST" action="display_php/vehicle_display.php" onsubmit="return jojo5()">
+                <label for="">Name:</label>
+                <input type="text" name="vehicledisplay" id="box5" placeholder="Enter client's name"> <br />
                 <button class="btn btn-primary">Submit</button>
             </form>
         </div>
@@ -142,9 +146,9 @@
         <div class="col jumbotron ml-1" id="mangoz">
             <h4 class="text-center"><u> MOBILE SECTION</u></h4><br />
             <!--this code is for students display data-->
-            <form method="POST" action="display_php/student_display.php" onsubmit="return substitute1 ()">
-                <label for="">ID Number:</label>
-                <input type="text" name="studentdisplay" id="mytextbox1" placeholder="Enter ID Number"> <br />
+            <form method="POST" action="display_php/mobile_display.php" onsubmit="return yoyo6()">
+                <label for="">Name:</label>
+                <input type="text" name="mobiledisplay" id="box6" placeholder="Enter client's name"> <br />
                 <button class="btn btn-primary">Submit</button>
             </form>
         </div>

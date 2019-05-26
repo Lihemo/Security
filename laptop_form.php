@@ -23,9 +23,9 @@
                 <div class="h3 text-primary ml-5">Eshiwani Security Systems(ESS)</div>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="index.php" class="nav-link h6">Home</a></li>
-                    <li class="nav-item"><a href="Registration.html" class="nav-link h6">Registration</a></li>
-                    <li class="nav-item"><a href="vehicles_form.html" class="nav-link h6">Vehicles</a></li>
-                    <li class=" nav-item"><a href="mobile_form.html" class="nav-link h6">Mobile</a></li>
+                    <li class="nav-item"><a href="Registration.php" class="nav-link h6">Registration</a></li>
+                    <li class="nav-item"><a href="vehicles_form.php" class="nav-link h6">Vehicles</a></li>
+                    <li class=" nav-item"><a href="mobile_form.php" class="nav-link h6">Mobile</a></li>
                 </ul>
             </div>
         </nav>
