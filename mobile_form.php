@@ -82,7 +82,7 @@
         </Form>
     </div>
 
-    <a href="index.html" class="h6 text-left text-primary">Back to Homepage</a>
+    <a href="index.php" class="h6 text-left text-primary">Back to Homepage</a>
 
     <!--this is the footer-->
     <div class="footer h5 text-center">

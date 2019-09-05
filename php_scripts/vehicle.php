@@ -1,23 +1,21 @@
 <?php
-//this code is for displaying data(records) from the various tables in the database
-include "/opt/lampp/htdocs/security/php_scripts/EshiwaniConnection.php";
+	 //this code is for submitting data to the database from  the student form.
+	include "/opt/lampp/htdocs/security/php_scripts/EshiwaniConnection.php";
+	
 
-$mytextbox5 = $_POST['vehicledisplay'];
-
-echo "<h3>STUDENT</h3>";
-$disp= mysqli_query($con,"SELECT * FROM gariData WHERE Name='$mytextbox5'");	
-
-if($record = mysqli_fetch_array($disp))
+	if(isset($_POST['ClickMe_six']))
 	{
-		echo "<br /> <b>Name</b>:" .$record['Name'];
-		echo "<br /> <b>ID Number</b>:" .$record['IDNumber'];
-		echo "<br /> <b>Vehicle Model</b>:" .$record['VehicleModel'];
-		echo "<br /> <b>Plate Number</b>:" .$record['PLateNumber'];
+		$brandi = $_POST['brand'];
+		$mbele = $_POST['bumper'];
+		$unda = $_POST['make'];
+		$hit = $_POST['gonga'];
+
+		$sql= "INSERT INTO gariData (Name,IDNumber,VehicleModel,PlateNumber) VALUES ('$brandi', '$mbele', '$unda','$hit')";
+		
+		mysqli_query($con,$sql);
 	}
 
-	else{
-		echo"Vehicle Not Present in the Database!!";
-	} 
-	
+	header ("Location: {$_SERVER['HTTP_REFERER']}");
+
 ?>
 

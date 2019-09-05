@@ -58,7 +58,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="index.php" class="nav-link h6">Home</a></li>
                     <li class="nav-item"><a href="Registration.php" class="nav-link h6">Registration</a></li>
-                    <li class="nav-item"><a href="laptops_form.php" class="nav-link h6">Laptops</a></li>
+                    <li class="nav-item"><a href="laptop_form.php" class="nav-link h6">Laptops</a></li>
                     <li class="nav-item"><a href="vehicles_form.php" class="nav-link h6">Vehicles</a></li>
                     <li class="nav-item"><a href="mobile_form.php" class="nav-link h6">Mobile</a></li>
                 </ul>
@@ -92,7 +92,7 @@
         </Form>
     </div>
 
-    <a href="index.html" class="h6 text-left text-primary">Back to Homepage</a>
+    <a href="index.php" class="h6 text-left text-primary">Back to Homepage</a>
 
     <!--this is the footer-->
     <div class="footer h5 text-center">

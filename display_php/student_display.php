@@ -16,8 +16,8 @@ if($record = mysqli_fetch_array($disp))
 	}
 
 	else{
-		echo"Student Not Present in the Database!!";
+		echo"Student Not Present in the Database!!"; 
 	} 
-	
+
 ?>
 

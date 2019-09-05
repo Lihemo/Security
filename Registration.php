@@ -16,22 +16,6 @@
 
 <body>
 
-    <!--this is the navigation bar -->
-    <div class="container">
-        <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark">
-            <button type="button" class="nav-toggler" data-toggle="collapse" data-target="#myNav"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div id="myNav" class="collapse navbar-collapse">
-                <div class="h3 text-primary ml-5">Eshiwani Security Systems(ESS)</div>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link h6">Home</a></li>
-                    <li class="nav-item"><a href="#regista" class="nav-link h6">Laptops</a></li>
-                    <li class="nav-item"><a href="vehicles_form.php" class="nav-link h6"" >Vehicles</a></li>
-                    <li class=" nav-item"><a href="mobile_form.php" class="nav-link h6">Mobile</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div><br />
 
 
     <div class="h5 text-center text-primary">Registration Forms</div><br /><br />

@@ -37,10 +37,10 @@
     <!--this is the registration forms section for the laptops-->
     <div id='regista'style="width:20%;">
         <ul class="list-group ml-5">
-            <li class="list-group-item"><a href="student_form.html">Student Form</a></li>
-            <li class="list-group-item"><a href="staff_form.html">Staff Form</a></li>
-            <li class="list-group-item"><a href="lecturer_form.html">Lecturer Form</a></li>
-            <li class="list-group-item"><a href="visitor_form.html">Visitor Form</a></li>
+            <li class="list-group-item"><a href="student_form.php">Student Form</a></li>
+            <li class="list-group-item"><a href="staff_form.php">Staff Form</a></li>
+            <li class="list-group-item"><a href="lecturer_form.php">Lecturer Form</a></li>
+            <li class="list-group-item"><a href="visitor_form.php">Visitor Form</a></li>
         </ul>
     </div><br />
 
